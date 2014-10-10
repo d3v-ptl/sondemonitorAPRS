@@ -105,7 +105,7 @@ def push_balloon_to_aprs(sonde_data):
 	alt = int(float(sonde_data["alt"])/0.3048)
 	
 	# Produce the APRS object string.
-	out_str = ";%s*111111z%s/%sO000/000/A=%06d BOM Balloon %s QSO VK5RHO2M" % (object_name,lat_str,lon_str,alt, sonde_data["freq"])
+	out_str = ";%s*111111z%s/%sO000/000/A=%06d BOM Balloon %s" % (object_name,lat_str,lon_str,alt, sonde_data["freq"])
 	print out_str
 	
 	# Connect to an APRS-IS server, login, then push our object position in.
