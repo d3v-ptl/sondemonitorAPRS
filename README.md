@@ -1,6 +1,11 @@
 Sondemonitor to APRS Bridge
 ================
 
+NOTE: This repository is deprecated, see https://github.com/darksidelemm/sondemonitorUtils for some more generic utilities.
+
+
+
+
 I track Bureau of Meteorology Radiosondes occasionally, and I figured it'd be nice to be able to push their position into APRS, for mapping on aprs.fi.
 
 I'm going to assume you know how to use SondeMonitor, and know how to set it up to decode a position. If not, there's probably some guides online on how to do it.
